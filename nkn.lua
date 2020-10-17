@@ -1,8 +1,8 @@
 --    Author : Akshai M <akshaim.in>
 wifi.setmode(wifi.STATION)
 station_cfg={}
-station_cfg.ssid="VM3980916"
-station_cfg.pwd="xcmz5qgVbjsh"
+station_cfg.ssid="Wifi Name" 
+station_cfg.pwd="Password"
 station_cfg.save=false
 wifi.sta.config(station_cfg)
 mytimer=tmr.create()
